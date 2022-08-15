@@ -21,7 +21,6 @@ export default () => {
                     >Syllabus
                     </a>
                     <Link className='btn margin-buttom-1' to='/lectures' onClick={() => setMenu(!menu)}>Lectures</Link>
-                    <Link className='btn margin-buttom-1' to='/assignments' onClick={() => setMenu(!menu)}>Assignments</Link>
                     <a 
                         className='btn margin-buttom-1'
                         href='https://dropbox.cse.sc.edu'

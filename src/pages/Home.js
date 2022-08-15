@@ -1,6 +1,7 @@
 export default () => {
     return <div className="page-home">
-        <h3 className="atlantic">Fall 2022</h3>
+        <h3 className="atlantic csce">Fall 2022</h3>
+        <h1 className="csce">CSCE 274</h1>
         <h1>Robotics Applications and Design</h1>
         <h3 className="rose">**Note: Announcements, homeworks, project assignments and grades will be avaible on Dropbox.</h3>
         <h3 className="margin-top-1">This course aims at introducing to robotics from a computing perspective. After an overview of different types of robots, 
