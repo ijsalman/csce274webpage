@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #1C1C1A;
+  color: #F7DC08;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button {
+  margin-top: 1em;
+  width: 3em;
+  height: 3em;
+}
+
+.nav-full {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000000;
+}
+
+.page-home {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(100vh / 10);
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  width: 80%;
+}
+
+.rose {
+  color: #CC2E40;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.margin-top-3 {
+  margin-top: 1em;
+}
+
+.margin-top-1 {
+  margin-top: 3em;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: 2em;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  width: max-content;
+  justify-self: center;
+}
+
+.btn:hover {
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.horseshoe {
+  color:#65780B;
+}
+
+.atlantic {
+  color:  #466A9F;
+}
+
+.margin-buttom-5 {
+  margin-bottom: 5em;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: calc(100vh / 10);
+}
+
+.margin-buttom-1 {
+  margin-bottom: 1em;
+}
+
+.page-lectures {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.lectures-list {
+
+}
