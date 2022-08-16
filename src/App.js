@@ -6,10 +6,10 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 export default () => {
     
-    return <BrowserRouter>
+    return <BrowserRouter basename="/~ijsalman/csce274/f22">
         <Navbar />
         <Routes>
-            <Route path="/" exact element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="Lectures" exact element={<Lectures />} />
         </Routes>
     </BrowserRouter>

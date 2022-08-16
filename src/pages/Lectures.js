@@ -4,7 +4,7 @@ export default () => {
     const [lectures, setLectures] = useState([])
     
     useEffect(() => {
-        fetch('https://raw.githubusercontent.com/ijsalman/data/main/empty.json')
+        fetch('https://cse.sc.edu/~ijsalman/csce274/f22/db/lectures.json')
             .then(response => response.json())
             .then(data => setLectures(data));
     }, []);

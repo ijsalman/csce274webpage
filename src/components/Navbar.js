@@ -15,7 +15,7 @@ export default () => {
                     <Link className='btn margin-buttom-1' to='/' onClick={() => setMenu(!menu)}>Home</Link>
                     <a 
                         className='btn margin-buttom-1'
-                        href='https://dropbox.cse.sc.edu'
+                        href='https://cse.sc.edu/~ijsalman/csce274/f22/db/syllabus_274_f22.pdf'
                         target='__blank'
                         onClick={() => setMenu(!menu)}
                     >Syllabus
@@ -30,7 +30,7 @@ export default () => {
                     </a>
                     <a 
                         className='btn margin-buttom-1'
-                        href='https://github.com'
+                        href='https://github.com/18r441m/CSCE274'
                         target='__blank'
                         onClick={() => setMenu(!menu)}
                     >Github
